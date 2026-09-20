@@ -1,0 +1,16 @@
+schema_version: 1
+id: regexbench
+name: "regexbench"
+description: "Regex semantic equivalence, correctness, and ReDoS evaluation."
+kind: tool
+status: maintained
+repository: https://github.com/plicara/regexbench
+python:
+  - .
+artifacts:
+  - kind: reference
+    path: src
+  - kind: reference
+    path: tests
+  - kind: reference
+    path: docs
