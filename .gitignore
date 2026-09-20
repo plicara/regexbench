@@ -16,3 +16,8 @@ htmlcov/
 .DS_Store
 .idea/
 .vscode/
+
+# Local environments and disposable lab views
+.plicara/generated/
+.venv/
+__pycache__/
